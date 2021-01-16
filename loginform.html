@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        .back{
+            width: 500px;
+            height: 300px;
+            background-color: blueviolet;
+            margin: auto;
+            margin-top: 5%;
+            position: relative;
+            border-radius: 5%;
+        }
+        .login{
+            width: 400px;
+            height: 400px;
+            background-color: aqua;
+            position: absolute;
+            left: 50px;
+            top: 80px;
+            border-bottom: 1px solid black;
+            border-radius: 0px 0px 150px 150px;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+        <div class="login">
+            <form method="POST">
+                <p><input type="email" name="email" placeholder="enter your email"></p>
+                <p><input type="password" name="pass" placeholder="enter your password"></p>
+                <p><input type="submit" name="click" value="Submit"></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

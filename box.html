@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Properties</title>
+    <style>
+        .fl{
+            float: left;
+        }
+        .fr{
+            float:right;
+        }
+        .clr{
+            clear: both;
+        }
+        .box2{
+            width: 49.50%;
+            height: 80px;
+        }
+        .bg1{
+            background-color: darkblue;
+        }
+        .bg2{
+            background-color: darkcyan;
+        }
+    </style>
+</head>
+<body>
+    <div>Block Element</div>
+    <hr>
+    <h1>Box Basic Property</h1>
+    <ul>
+        <li>width: px,%</li>
+        <li>height: px,vh</li>
+        <li>background color</li>
+    </ul>
+    <hr>
+    <div style="width: 100%; height: 80px; background-color: darkblue;"></div>
+    <hr>
+    <div class="box2 bg1"></div>
+    <div class="box2 bg2"></div>
+    <hr>
+    <h1>Solving using float(direction)</h1>
+    <ul>
+        <li>float: left</li>
+        <li>float: right</li>
+    </ul>
+    <hr>
+    <div class="box2 bg1 fl"></div>
+    <div class="box2 bg2 fr"></div>
+    <div style="width: 100%; height: 80px; background-color: darkred;"></div>
+    <hr>
+    <h1>solve problem float (data go to 2nd layer)</h1>
+    <ul>
+        <li>clear: both</li>
+    </ul>
+    <hr>
+    <div class="box2 bg1 fl"></div>
+    <div class="box2 bg2 fr"></div>
+    <div class="clr"></div>
+    <div style="width: 100%; height: 80px; background-color: darkred;"></div>
+</body>
+</html>

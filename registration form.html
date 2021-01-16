@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .wrap{
+            width: 500px;
+            height: 600px;
+            background-color: aqua;
+            margin: auto;
+            margin-top: 30px;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+        h1{
+            text-align: center;
+        }
+        .form{
+           margin: 5%;
+        }
+        .size{
+            width: 260px;
+            height: 25px;
+        }
+        .size1{
+            width: 265px;
+            height: 30px;
+        }
+        .btn1{
+            width: 95px;
+            height: 40px;
+            margin: 5% 5% 5% 20%;
+
+        }
+        .btn2{
+            width: 95px;
+            height: 40px;
+            margin: 5% 20% 5% 5%;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <form class="form" method="POST">
+            <h1>Registration Form</h1>
+            <hr>
+            <p>First Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" class="size" name="fname" placeholder="Enter your First Name"></p>
+            <p>Last Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" class="size" name="lname" placeholder="Enter your Last Name"></p>
+            <p>Email ID: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" class="size" name="email" placeholder="Enter your Email ID"></p>
+            <p>Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="password" class="size" name="pwd" placeholder="Create your Password"></p>
+            <p>Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="transgender">Transgender
+            </p>
+            <p>Select your country:
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select class="size1">
+                    <option>America</option>
+                    <option>Africa</option>
+                    <option>Britain</option>
+                    <option>Canada</option>
+                    <option>Denmark</option>
+                    <option>England</option>
+                    <option>France</option>
+                    <option>Germany</option>
+                    <option>Italy</option>
+                    <option>India</option>
+                    <option>Switzerland</option>
+                    <option>Singapore</option>
+                </select>
+            </p>
+            <p>Select your residence: 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select class="size1">
+                    <option>Delhi</option>
+                    <option>Agra</option>
+                    <option>Punjab</option>
+                    <option>Gujrat</option>
+                    <option>Rajesthan</option>
+                    <option>Kashmir</option>
+                    <option>Chennai</option>
+                    <option>Mumbai</option>
+                    <option>Goa</option>
+                    <option>Tamil Nadu</option>
+                    <option>Uttar Pradesh</option>
+                    <option>Kolkata</option>
+                    <option>Bihar</option>
+                </select>
+            </p>
+            <p>Select your Course: <br><br>
+               <input type="checkbox" name="a" value="1">B.Tech
+               <input type="checkbox" name="b" value="2">B.C.A
+               <input type="checkbox" name="c" value="3">B.Com
+               <input type="checkbox" name="d" value="4">B.Sc
+               <input type="checkbox" name="e" value="5">B.Ed
+            </p>
+            <input type="submit" class="btn1" name="sub" value="Regiter Now">
+            <input type="reset" class="btn2" name="rs" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
